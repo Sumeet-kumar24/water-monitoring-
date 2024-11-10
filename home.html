@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Water Monitoring Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Smart Water Monitoring Dashboard</h1>
+  </header>
+  <main>
+    <section id="real-time-usage">
+      <h2>Real-Time Water Usage</h2>
+      <div id="usage-data">
+        <p>Current Usage: <span id="current-usage">0</span> L/min</p>
+        <p>Total Consumption Today: <span id="total-usage">0</span> L</p>
+      </div>
+    </section>
+    
+    <section id="usage-history">
+      <h2>Usage History</h2>
+      <canvas id="usage-chart"></canvas>
+    </section>
+    
+    <section id="device-management">
+      <h2>Device Management</h2>
+      <div id="devices">
+        <!-- Devices will be loaded here dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
